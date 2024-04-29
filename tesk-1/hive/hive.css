@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(53, 53, 53);
+  color: aliceblue;
+}
+
+.header {
+  height: 100px;
+} 
+.head h1 {
+  animation: neon-4 linear infinite 2s;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #d1ffbf, 0 0 0.5em #bfe2ff,
+  0 0 0.1em #c4ffbf;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 5px 15px 0 rgb(150, 254, 143);
+}
+@keyframes neon-4 {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #1ab71d;
+  }
+  80% {
+    text-shadow: none;
+  }
+}
+.head {
+  color: rgb(155, 254, 155);
+  max-width: 900px;
+  margin: auto;
+}
+
+
+.button-prim {
+  color: #fff;
+  background-color: rgb(0, 255, 0);
+  transition: 0.5s;
+  box-shadow: 0 5px 15px 0 rgb(30, 252, 6);
+}
+
+.button-prim:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 5px 15px 0 rgb(252, 6, 6);
+  background-color: rgb(255, 0, 0);
+}
+.button-prim-2{
+  color: #fff;
+  transition: 0.5s;
+  box-shadow: 0 5px 15px 0 rgb(30, 252, 6);
+}
+.button-prim-2:hover{
+  transform: translate(0, -3px);
+}
+.esc{
+  text-align: end;
+  margin: 10px;
+}
+.button-esc{
+  border-radius: 4px;
+  border: rgb(0, 255, 0) 1px solid;
+  color: #fff;
+  background-color: rgb(0, 255, 0);
+  transition: 0.5s;
+  box-shadow: 0 5px 15px 0 rgb(30, 252, 6);
+}
+.button-esc:hover{
+  border: rgb(255, 0, 0)1px solid;
+  transform: translate(0, -3px);
+  box-shadow: 0 5px 15px 0 rgb(252, 6, 6);
+  background-color: rgb(255, 0, 0);
+}
